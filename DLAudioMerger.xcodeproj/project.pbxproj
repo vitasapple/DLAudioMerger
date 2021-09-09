@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187B691926E70D9700F8B183 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 187B691826E70D9700F8B183 /* libmp3lame.a */; };
+		187B691D26E70DDE00F8B183 /* ExtAudioConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B691C26E70DDE00F8B183 /* ExtAudioConverter.m */; };
+		187B989826D64B9800EBBFDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B989726D64B9800EBBFDE /* AppDelegate.swift */; };
+		187B989A26D64B9B00EBBFDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187B989926D64B9B00EBBFDE /* Assets.xcassets */; };
+		187B989D26D64B9B00EBBFDE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187B989B26D64B9B00EBBFDE /* MainMenu.xib */; };
+		187B98AB26D64BB600EBBFDE /* DLMainViewCtr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B98A926D64BB600EBBFDE /* DLMainViewCtr.swift */; };
+		187B98AC26D64BB600EBBFDE /* DLMainViewCtr.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187B98AA26D64BB600EBBFDE /* DLMainViewCtr.xib */; };
+		187B98B126D64D2C00EBBFDE /* DLBaseWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B98AF26D64D2C00EBBFDE /* DLBaseWindow.swift */; };
+		187B98B226D64D2C00EBBFDE /* DLBaseWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187B98B026D64D2C00EBBFDE /* DLBaseWindow.xib */; };
+		1885E10826D71D94002D7CFD /* Mytools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885E10626D71D94002D7CFD /* Mytools.swift */; };
+		1885E10926D71D94002D7CFD /* DLConstFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885E10726D71D94002D7CFD /* DLConstFile.swift */; };
+		1885E10D26D71DF6002D7CFD /* DLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885E10C26D71DF6002D7CFD /* DLExtension.swift */; };
+		18BFB55526D732EB006218FA /* DLMainAudioItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFB55326D732EB006218FA /* DLMainAudioItem.swift */; };
+		18BFB55626D732EB006218FA /* DLMainAudioItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BFB55426D732EB006218FA /* DLMainAudioItem.xib */; };
+		18BFB55A26D743E7006218FA /* DLMainMergeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFB55826D743E7006218FA /* DLMainMergeItem.swift */; };
+		18BFB55B26D743E7006218FA /* DLMainMergeItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BFB55926D743E7006218FA /* DLMainMergeItem.xib */; };
+		18BFB55F26D74877006218FA /* DLMainAudioItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFB55E26D74877006218FA /* DLMainAudioItemModel.swift */; };
+		D6D1EABB91F3DBF2A8755DAB /* Pods_DLAudioMerger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A65BE424E15D6D0B319386 /* Pods_DLAudioMerger.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1837E8AF26D870C600560F05 /* DLAudioMerger-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DLAudioMerger-Bridging-Header.h"; sourceTree = "<group>"; };
+		187B691726E70D9700F8B183 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		187B691826E70D9700F8B183 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		187B691B26E70DDE00F8B183 /* ExtAudioConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtAudioConverter.h; sourceTree = "<group>"; };
+		187B691C26E70DDE00F8B183 /* ExtAudioConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtAudioConverter.m; sourceTree = "<group>"; };
+		187B989426D64B9800EBBFDE /* DLAudioMerger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLAudioMerger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187B989726D64B9800EBBFDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		187B989926D64B9B00EBBFDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187B989C26D64B9B00EBBFDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		187B989E26D64B9B00EBBFDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187B989F26D64B9B00EBBFDE /* DLAudioMerger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DLAudioMerger.entitlements; sourceTree = "<group>"; };
+		187B98A926D64BB600EBBFDE /* DLMainViewCtr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLMainViewCtr.swift; sourceTree = "<group>"; };
+		187B98AA26D64BB600EBBFDE /* DLMainViewCtr.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DLMainViewCtr.xib; sourceTree = "<group>"; };
+		187B98AF26D64D2C00EBBFDE /* DLBaseWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLBaseWindow.swift; sourceTree = "<group>"; };
+		187B98B026D64D2C00EBBFDE /* DLBaseWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DLBaseWindow.xib; sourceTree = "<group>"; };
+		1885E10626D71D94002D7CFD /* Mytools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mytools.swift; sourceTree = "<group>"; };
+		1885E10726D71D94002D7CFD /* DLConstFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLConstFile.swift; sourceTree = "<group>"; };
+		1885E10C26D71DF6002D7CFD /* DLExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLExtension.swift; sourceTree = "<group>"; };
+		18BFB55326D732EB006218FA /* DLMainAudioItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLMainAudioItem.swift; sourceTree = "<group>"; };
+		18BFB55426D732EB006218FA /* DLMainAudioItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DLMainAudioItem.xib; sourceTree = "<group>"; };
+		18BFB55826D743E7006218FA /* DLMainMergeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLMainMergeItem.swift; sourceTree = "<group>"; };
+		18BFB55926D743E7006218FA /* DLMainMergeItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DLMainMergeItem.xib; sourceTree = "<group>"; };
+		18BFB55E26D74877006218FA /* DLMainAudioItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLMainAudioItemModel.swift; sourceTree = "<group>"; };
+		402719DECCC70D22045FE252 /* Pods-DLAudioMerger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLAudioMerger.release.xcconfig"; path = "Target Support Files/Pods-DLAudioMerger/Pods-DLAudioMerger.release.xcconfig"; sourceTree = "<group>"; };
+		8476FCB7ADB14AE17E148CF9 /* Pods-DLAudioMerger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLAudioMerger.debug.xcconfig"; path = "Target Support Files/Pods-DLAudioMerger/Pods-DLAudioMerger.debug.xcconfig"; sourceTree = "<group>"; };
+		89A65BE424E15D6D0B319386 /* Pods_DLAudioMerger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLAudioMerger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187B989126D64B9800EBBFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D1EABB91F3DBF2A8755DAB /* Pods_DLAudioMerger.framework in Frameworks */,
+				187B691926E70D9700F8B183 /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187B691626E70D8F00F8B183 /* third */ = {
+			isa = PBXGroup;
+			children = (
+				187B691B26E70DDE00F8B183 /* ExtAudioConverter.h */,
+				187B691C26E70DDE00F8B183 /* ExtAudioConverter.m */,
+				187B691726E70D9700F8B183 /* lame.h */,
+				187B691826E70D9700F8B183 /* libmp3lame.a */,
+			);
+			path = third;
+			sourceTree = "<group>";
+		};
+		187B988B26D64B9800EBBFDE = {
+			isa = PBXGroup;
+			children = (
+				187B989626D64B9800EBBFDE /* DLAudioMerger */,
+				187B989526D64B9800EBBFDE /* Products */,
+				5625EF61B1383497E4635570 /* Pods */,
+				C24B99E2FCC8A3068A720F6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		187B989526D64B9800EBBFDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187B989426D64B9800EBBFDE /* DLAudioMerger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187B989626D64B9800EBBFDE /* DLAudioMerger */ = {
+			isa = PBXGroup;
+			children = (
+				187B989726D64B9800EBBFDE /* AppDelegate.swift */,
+				18BFB54A26D72910006218FA /* base */,
+				187B98B426D64F0C00EBBFDE /* main */,
+				1885E10B26D71DF6002D7CFD /* extend */,
+				187B691626E70D8F00F8B183 /* third */,
+				1885E10526D71D94002D7CFD /* tools */,
+				187B98B526D64F1700EBBFDE /* useless */,
+			);
+			path = DLAudioMerger;
+			sourceTree = "<group>";
+		};
+		187B98B426D64F0C00EBBFDE /* main */ = {
+			isa = PBXGroup;
+			children = (
+				18BFB55D26D747F3006218FA /* model */,
+				18BFB54B26D7294B006218FA /* cell */,
+				187B98A926D64BB600EBBFDE /* DLMainViewCtr.swift */,
+				187B98AA26D64BB600EBBFDE /* DLMainViewCtr.xib */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		187B98B526D64F1700EBBFDE /* useless */ = {
+			isa = PBXGroup;
+			children = (
+				1837E8AF26D870C600560F05 /* DLAudioMerger-Bridging-Header.h */,
+				187B989926D64B9B00EBBFDE /* Assets.xcassets */,
+				187B989B26D64B9B00EBBFDE /* MainMenu.xib */,
+				187B989E26D64B9B00EBBFDE /* Info.plist */,
+				187B989F26D64B9B00EBBFDE /* DLAudioMerger.entitlements */,
+			);
+			name = useless;
+			sourceTree = "<group>";
+		};
+		1885E10526D71D94002D7CFD /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				1885E10626D71D94002D7CFD /* Mytools.swift */,
+				1885E10726D71D94002D7CFD /* DLConstFile.swift */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		1885E10B26D71DF6002D7CFD /* extend */ = {
+			isa = PBXGroup;
+			children = (
+				1885E10C26D71DF6002D7CFD /* DLExtension.swift */,
+			);
+			path = extend;
+			sourceTree = "<group>";
+		};
+		18BFB54A26D72910006218FA /* base */ = {
+			isa = PBXGroup;
+			children = (
+				187B98AF26D64D2C00EBBFDE /* DLBaseWindow.swift */,
+				187B98B026D64D2C00EBBFDE /* DLBaseWindow.xib */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		18BFB54B26D7294B006218FA /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				18BFB55326D732EB006218FA /* DLMainAudioItem.swift */,
+				18BFB55426D732EB006218FA /* DLMainAudioItem.xib */,
+				18BFB55826D743E7006218FA /* DLMainMergeItem.swift */,
+				18BFB55926D743E7006218FA /* DLMainMergeItem.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		18BFB55D26D747F3006218FA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				18BFB55E26D74877006218FA /* DLMainAudioItemModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5625EF61B1383497E4635570 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8476FCB7ADB14AE17E148CF9 /* Pods-DLAudioMerger.debug.xcconfig */,
+				402719DECCC70D22045FE252 /* Pods-DLAudioMerger.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C24B99E2FCC8A3068A720F6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89A65BE424E15D6D0B319386 /* Pods_DLAudioMerger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187B989326D64B9800EBBFDE /* DLAudioMerger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187B98A226D64B9B00EBBFDE /* Build configuration list for PBXNativeTarget "DLAudioMerger" */;
+			buildPhases = (
+				086423A218068B830BF83B10 /* [CP] Check Pods Manifest.lock */,
+				187B989026D64B9800EBBFDE /* Sources */,
+				187B989126D64B9800EBBFDE /* Frameworks */,
+				187B989226D64B9800EBBFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLAudioMerger;
+			productName = DLAudioMerger;
+			productReference = 187B989426D64B9800EBBFDE /* DLAudioMerger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187B988C26D64B9800EBBFDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					187B989326D64B9800EBBFDE = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 187B988F26D64B9800EBBFDE /* Build configuration list for PBXProject "DLAudioMerger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187B988B26D64B9800EBBFDE;
+			productRefGroup = 187B989526D64B9800EBBFDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187B989326D64B9800EBBFDE /* DLAudioMerger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187B989226D64B9800EBBFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187B98B226D64D2C00EBBFDE /* DLBaseWindow.xib in Resources */,
+				187B989A26D64B9B00EBBFDE /* Assets.xcassets in Resources */,
+				18BFB55626D732EB006218FA /* DLMainAudioItem.xib in Resources */,
+				187B98AC26D64BB600EBBFDE /* DLMainViewCtr.xib in Resources */,
+				18BFB55B26D743E7006218FA /* DLMainMergeItem.xib in Resources */,
+				187B989D26D64B9B00EBBFDE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		086423A218068B830BF83B10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DLAudioMerger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187B989026D64B9800EBBFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BFB55F26D74877006218FA /* DLMainAudioItemModel.swift in Sources */,
+				18BFB55526D732EB006218FA /* DLMainAudioItem.swift in Sources */,
+				187B98B126D64D2C00EBBFDE /* DLBaseWindow.swift in Sources */,
+				1885E10926D71D94002D7CFD /* DLConstFile.swift in Sources */,
+				187B989826D64B9800EBBFDE /* AppDelegate.swift in Sources */,
+				18BFB55A26D743E7006218FA /* DLMainMergeItem.swift in Sources */,
+				187B98AB26D64BB600EBBFDE /* DLMainViewCtr.swift in Sources */,
+				187B691D26E70DDE00F8B183 /* ExtAudioConverter.m in Sources */,
+				1885E10826D71D94002D7CFD /* Mytools.swift in Sources */,
+				1885E10D26D71DF6002D7CFD /* DLExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		187B989B26D64B9B00EBBFDE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187B989C26D64B9B00EBBFDE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187B98A026D64B9B00EBBFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		187B98A126D64B9B00EBBFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		187B98A326D64B9B00EBBFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8476FCB7ADB14AE17E148CF9 /* Pods-DLAudioMerger.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DLAudioMerger/DLAudioMerger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 897BNGH9W3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DLAudioMerger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DLAudioMerger/third/lame",
+					"$(PROJECT_DIR)/DLAudioMerger/third/XHSoundRecorder",
+					"$(PROJECT_DIR)/DLAudioMerger/third/FFmpeg-iOS/lib",
+					"$(PROJECT_DIR)/DLAudioMerger/third",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vicnic.ServerJun.DLAudioMerger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/DLAudioMerger/DLAudioMerger-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		187B98A426D64B9B00EBBFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402719DECCC70D22045FE252 /* Pods-DLAudioMerger.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DLAudioMerger/DLAudioMerger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 897BNGH9W3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DLAudioMerger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DLAudioMerger/third/lame",
+					"$(PROJECT_DIR)/DLAudioMerger/third/XHSoundRecorder",
+					"$(PROJECT_DIR)/DLAudioMerger/third/FFmpeg-iOS/lib",
+					"$(PROJECT_DIR)/DLAudioMerger/third",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vicnic.ServerJun.DLAudioMerger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/DLAudioMerger/DLAudioMerger-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187B988F26D64B9800EBBFDE /* Build configuration list for PBXProject "DLAudioMerger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187B98A026D64B9B00EBBFDE /* Debug */,
+				187B98A126D64B9B00EBBFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187B98A226D64B9B00EBBFDE /* Build configuration list for PBXNativeTarget "DLAudioMerger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187B98A326D64B9B00EBBFDE /* Debug */,
+				187B98A426D64B9B00EBBFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187B988C26D64B9800EBBFDE /* Project object */;
+}

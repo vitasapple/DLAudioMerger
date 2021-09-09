@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="DLMainMergeItem" customModule="DLAudioMerger" customModuleProvider="target">
+            <connections>
+                <outlet property="bgView" destination="HL6-jq-mR3" id="4XV-Jj-tN1"/>
+                <outlet property="contentHeight" destination="eVG-Nm-wPb" id="gt6-fp-4Z0"/>
+                <outlet property="nameLab" destination="mB0-Xp-XU9" id="hyX-nG-iJT"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="HL6-jq-mR3">
+                    <rect key="frame" x="8" y="8" width="64" height="64"/>
+                </customView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mB0-Xp-XU9">
+                    <rect key="frame" x="8" y="32" width="64" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="eVG-Nm-wPb"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="charWrapping" alignment="center" title="Label" id="Hcs-hh-zjJ">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button translatesAutoresizingMaskIntoConstraints="NO" id="Ybc-px-I7U">
+                    <rect key="frame" x="57" y="57" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="I5N-ss-TQB"/>
+                        <constraint firstAttribute="width" constant="20" id="gRJ-VU-WfZ"/>
+                    </constraints>
+                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="关闭" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="rdp-cb-dYS">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="delBtnClick:" target="-2" id="gIz-X5-9Lo"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="HL6-jq-mR3" secondAttribute="bottom" constant="8" id="Krg-Us-dqY"/>
+                <constraint firstItem="mB0-Xp-XU9" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="LJZ-Fg-DNC"/>
+                <constraint firstAttribute="trailing" secondItem="mB0-Xp-XU9" secondAttribute="trailing" constant="10" id="M6q-LK-IYR"/>
+                <constraint firstItem="HL6-jq-mR3" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="8" id="OL1-Fy-jqh"/>
+                <constraint firstAttribute="trailing" secondItem="Ybc-px-I7U" secondAttribute="trailing" constant="3" id="RWD-6k-Nb4"/>
+                <constraint firstAttribute="trailing" secondItem="HL6-jq-mR3" secondAttribute="trailing" constant="8" id="Tzt-Hi-ZUE"/>
+                <constraint firstItem="mB0-Xp-XU9" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="10" id="WN3-wf-F5I"/>
+                <constraint firstItem="HL6-jq-mR3" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="8" id="f0h-Jq-chT"/>
+                <constraint firstItem="Ybc-px-I7U" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="3" id="gxB-GC-4gJ"/>
+            </constraints>
+            <point key="canvasLocation" x="119" y="154"/>
+        </customView>
+        <customObject id="V9P-Df-evq" customClass="DLMainMergeItem" customModule="DLAudioMerger" customModuleProvider="target"/>
+    </objects>
+    <resources>
+        <image name="关闭" width="13" height="13"/>
+    </resources>
+</document>
